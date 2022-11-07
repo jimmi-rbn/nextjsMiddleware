@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-import { localeIdentifiers } from "./locales";
+import { localeIdentifiers } from "./src/locales";
 
 const locales = [...localeIdentifiers.map((locale) => locale.market)];
 
